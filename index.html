@@ -1,8 +1,114 @@
-<!doctype html>
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="refresh" content="0; url=https://plattbridge.com">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your ideas deserve a place that feels right</title>
+<link rel="canonical" href="https://esoterically.net/" />
+<link rel="icon" type="image/png" href="https://esoterically.net/favicon.png" />
+
+<style>
+:root {
+    --bg: #f4f5f7;
+    --card: #ffffff;
+    --accent: #3b6acb;
+    --accent-hover: #2c53a0;
+    --text: #2b2f38;
+    --muted: #8c9097;
+}
+
+body {
+    font-family: "Inter", system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 55px 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    background: #d8d8d8;
+    padding: 48px;
+    border-radius: 24px;
+    box-shadow: 0 10px 45px rgba(0,0,0,0.06);
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 42px;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px;
+    background: var(--card);
+    border-radius: 18px;
+    text-decoration: none;
+    color: var(--text);
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+    font-size: 20px;
+    font-weight: 500;
+    transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+
+a span {
+    margin-top: 8px;
+    font-size: 14px;
+    color: var(--muted);
+}
+
+a:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+    border-color: var(--accent);
+}
+
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 36px 22px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 26px;
+    }
+}
+</style>
 </head>
+
 <body>
+<div class="container">
+    <h1>Best Blogging Platform</h1>
+
+    <div class="grid">
+                    <a href="https://porcelainveneers.esoterically.net">
+                Porcelainveneers                <span>porcelainveneers.esoterically.net</span>
+            </a>
+                    <a href="https://smileveneersglasgow.esoterically.net">
+                Smileveneersglasgow                <span>smileveneersglasgow.esoterically.net</span>
+            </a>
+            </div>
+
+</div>
 </body>
 </html>
